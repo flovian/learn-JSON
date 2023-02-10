@@ -9,7 +9,8 @@ often used when data is sent from a server to a web page.
 * Intergrates nicely with Javascript since it is a `superset` of JS.
 * It also intergrates easily with most languages
 
-* * JSON Types
+ ** JSON Types **
+ 
   * Strings
   * Null
   * Booleans
