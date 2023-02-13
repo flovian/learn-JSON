@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Aamal Noor",
+        "age": 40,
+        "classTeacher":"Tr.Alice",
+        "isRegistered":" True",
+        "selectedClass":"null"
+    },
+    {
+        "name": "Elizabeth Achieng",
+        "age": 80,
+        "classTeacher":"Tr.janet",
+        "isRegistered":" False",
+        "selectedClass":"null"
+    }
+
+]

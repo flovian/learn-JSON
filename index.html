@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JSON</title>
+</head>
+<body>
+    <script type="text/javascript">
+/*
+-Most of the time when you are dealing with JSON you are going to convert
+the actual object into string.
+- In order to convert JSON string into Javascript object,will use JSON dot parse
+*/
+        let students = 
+        `[
+            {
+        "name": "Aamal Noor",
+        "age": 40,
+        "classTeacher":"Tr.Alice",
+        "isRegistered":" True",
+        "selectedClass":"null"
+            },
+            {
+        "name": "Elizabeth Achieng",
+        "age": 80,
+        "classTeacher":"Tr.janet",
+        "isRegistered":" False",
+        "selectedClass":"null"
+            }
+        ]`
+        console.log(JSON.parse(students));
+        console.log(JSON.parse(students)[1].name);
+        let schools = 
+        [
+            {
+        "name":"Lwak Girls",
+        "principal":"Gideon Alphonce",
+        "schoolNo":444,
+        "numberOfStudents":null
+            }
+        ]
+        console.log(schools);
+    </script>
+</body>
+</html>
